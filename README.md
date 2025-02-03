@@ -1,11 +1,15 @@
-# recognition-face-system
-Modelo de Machine Learning para reconhecimento facial
 # Projeto de Detecção Facial em Python com OpenCV e Google Colab
 
-Este repositório contém um exemplo completo de como capturar imagens da webcam em uma sessão do Google Colab, utilizar o modelo pré-treinado de detecção de rostos baseado em **Deep Learning** (rede Caffe) e exibir as detecções resultantes em uma imagem.  
+O objetivo principal deste projeto é trabalhar com as bibliotecas e frameworks estudados e analisados nas aulas do Bootcamp Machine Learning Pratctioner. Neste sentido, a proposta padrão envolve um sistema de detecção e reconhecimento de faces, utilizando o framework TensorFlow em conjuntos com as bibliotecas que o projetista julgue necessárias, de forma ilimitada.
+
+Este repositório contém um exemplo completo de como capturar imagens da webcam em uma sessão do Google Colab, utilizar o modelo pré-treinado de detecção de rostos baseado em **Deep Learning** (rede Caffe) e exibir as detecções resultantes em uma imagem.
+
+## Entregáveis
+- [ ] Utilizar uma rede de detecção treinada para detectar faces.
+- [ ] Utilizar uma rede de classificação para classificar a face detectada.
 
 ## Sumário
-1. [Visão Geral do Projeto](#Visão-Geral-do-Projeto)
+1. [Visão Geral do Projeto](#visão-geral-do-projeto)
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 3. [Como Executar](#como-executar)
 4. [Explicação do Código](#explicação-do-código)
@@ -16,8 +20,7 @@ Este repositório contém um exemplo completo de como capturar imagens da webcam
    - [Carregamento do Modelo e Preparação da Imagem](#carregamento-do-modelo-e-preparação-da-imagem)
    - [Detecção e Marcação de Rostos](#detecção-e-marcação-de-rostos)
 5. [Resultado](#resultado)
-6. [Considerações](#considerações)
-7. [Licença](#licença)
+6. [Contatos](#contatos)
 
 
 ---
@@ -27,9 +30,9 @@ Este projeto ilustra como usar a webcam de um computador ou notebook em uma sess
 
 ## Tecnologias Utilizadas
 - [Python 3](https://www.python.org/)
+- [NumPy](https://numpy.org/)
 - [OpenCV](https://opencv.org/) (biblioteca principal para tratamento de imagens)
 - [imutils](https://pypi.org/project/imutils/) (auxiliares para manipulação de imagens e vídeos)
-- [NumPy](https://numpy.org/) (operações numéricas e matrizes)
 - [Google Colab](https://colab.research.google.com/) (execução de notebooks na nuvem)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) (para capturar a imagem da webcam no Colab)
 
@@ -168,5 +171,8 @@ Embora o modelo detecte rostos com alta confiança, ele **não consegue diferenc
 - Verificações de piscadas, movimentos naturais ou microexpressões;
 - Detecção de textura de pele, uso de infravermelho, entre outras técnicas avançadas.
 
-## Licença
-Este projeto está sob a licença [MIT](LICENSE) — fique à vontade para utilizá-lo, aprender e contribuir. Se utilizar o projeto em produções acadêmicas ou profissionais, lembre-se de fornecer os devidos créditos aos autores e às fontes originais dos modelos e bibliotecas.
+## Contato
+Dúvidas ou sugestões? Entre em contato:
+
+- **Email:** rafaellopes.dev@gmail.com
+- **LinkedIn:** [Rafael Lopes](https://www.linkedin.com/in/rafael-lopes-desenvolvedor-fullstack/)
