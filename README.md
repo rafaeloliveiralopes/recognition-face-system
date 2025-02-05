@@ -5,8 +5,9 @@ O objetivo principal deste projeto é trabalhar com as bibliotecas e frameworks 
 Este repositório contém um exemplo completo de como capturar imagens da webcam em uma sessão do Google Colab, utilizar o modelo pré-treinado de detecção de rostos baseado em **Deep Learning** (rede Caffe) e exibir as detecções resultantes em uma imagem.
 
 ## Entregáveis
-- [ ] Utilizar uma rede de detecção treinada para detectar faces.
+- [x] Utilizar uma rede de detecção treinada para detectar faces.
 - [ ] Utilizar uma rede de classificação para classificar a face detectada.
+
 
 ## Sumário
 1. [Visão Geral do Projeto](#visão-geral-do-projeto)
